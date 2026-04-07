@@ -7,25 +7,4 @@ def clear():
 import subprocess # recomended
 
 def clear_with_subprocess():
-    """
-    Clears the terminal using subprocess module.
-
-    This function is more reliable than using os.system() as it does not
-    rely on the shell being available.
-
-    If the system is Windows (os.name == 'nt'), it runs 'cmd /c cls'
-    to clear the terminal.
-
-    If the system is not Windows, it runs 'clear' to clear the terminal.
-    
-    It needs the os.name verification for Mac and Linux systems
-    """
-
-    # on MacOS
-    if os.name == 'nt':
-        subprocess.run(['cmd', '/c', 'cls'])
-    else:
-        subprocess.run(['clear'])
-
-    # on Windows, os.name always returns 'nt' so just run
-    # subprocess.run(['cls'], shell=True)
+        subprocess.run(['cls'], shell = True)
