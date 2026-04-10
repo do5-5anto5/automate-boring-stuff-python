@@ -1,0 +1,4 @@
+- page.go_back()  Clicks the Back button
+- page.go_forward()  Clicks the Forward button
+- page.reload()  Clicks the Refresh/Reload button
+- page.close()  Clicks the Close Window button
