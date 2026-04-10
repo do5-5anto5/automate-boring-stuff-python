@@ -68,3 +68,5 @@ Text: {third_prgh_text}"""
 # search specific text in an element with get() method. it returns None if nothing matches
 
 print(p_elems[1].get("some_nonxistent_phrase") == None)
+
+print(f'\n\n {p_elems}')
