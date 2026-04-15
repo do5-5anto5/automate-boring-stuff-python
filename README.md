@@ -29,6 +29,22 @@ Focuses on **real-world task automation** examples from the book. Code is organi
 | **UI Automation** | Mouse and keyboard control |
 | **Speech**        | Text-to-speech and speech recognition |
 
+## Study Dependencies
+
+| Library | Purpose |
+|---|---|
+| `audioplayer` | Cross-platform audio playback — plays `.mp3`/`.wav` files |
+| `beautifulsoup4` | HTML/XML parsing — scraping and navigating web page structure |
+| `Bext` | Terminal manipulation — cursor positioning, colors, and screen clearing |
+| `openpyxl` | Read/write `.xlsx` files — full Excel spreadsheet support without Excel |
+| `playwright` | Browser automation — headless control of Chromium, Firefox, WebKit |
+| `PyMsgBox` | Native OS dialog boxes — alerts, prompts, and confirmation popups |
+| `pyperclip` | Clipboard access — copy and paste text programmatically |
+| `python-dotenv` | Loads `.env` files into environment variables — keeps secrets out of code |
+| `requests` | HTTP client — GET/POST requests, downloading files, consuming APIs |
+| `Send2Trash` | Safe file deletion — sends files to the OS trash instead of permanently deleting |
+| `ezsheets` | Google Sheets wrapper — read/write spreadsheets via the Sheets API |
+
 ## How to use
 
 ```bash
@@ -68,4 +84,3 @@ The scripts I've written are under **MIT License**. The book and its content are
 ---
 
 📖 *Buy the book — support the author and get the complete material to study.*
-```
