@@ -9,7 +9,7 @@ recomended to use some IA to fast format the text
 
 import pypdf
 import pdfminer.high_level
-from filenames import PDF_FILENAME, TEXT_FILENAME
+from pdf_and_word.pdf.filenames import PDF_FILENAME, TEXT_FILENAME
 
 
 
