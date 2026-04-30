@@ -1,5 +1,5 @@
 import pypdf
-from filenames import PDF_FILENAME
+from pdf_and_word.pdf.filenames import PDF_FILENAME
 
 writer = pypdf.PdfWriter()
 
