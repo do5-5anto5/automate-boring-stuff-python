@@ -13,6 +13,7 @@ python_dict = {
 }
 
 # parse Python string data to json data
+# attribute intedent=2 fprmats Json text into separate lines, with 2 spaces indenting each nested dict or list
 json_string = json.dumps(python_dict, indent=2)
 
 # printing string

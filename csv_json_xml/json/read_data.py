@@ -4,7 +4,7 @@ json_string = '{"name": "Alice Doe", "age": 30, "car": null, "programmer": true,
 
 # parse json string to Python string value with json load string method
 python_data = json.loads(json_string)
-print(type(python_data)) # this is a dict
+print(type(python_data))  # this is a dict
 
 # print value as formatted text
 pprint.pprint(python_data)
