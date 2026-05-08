@@ -89,6 +89,10 @@ credentials-sheets.json
 token-drive.pickle
 token-sheets.pickle
 
+# Google APIs
+credentials.json
+token.json
+
 # generated files
 /gen_files/*
 
